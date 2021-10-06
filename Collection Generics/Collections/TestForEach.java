@@ -19,7 +19,7 @@ public class TestForEach {
 		//lambda expression
 		collection.forEach(e -> System.out.print(e.toUpperCase() + " ")); //NEW YORK ATLANTA DALLAS MADISON 
 		System.out.println();
-		//same as this anonymous inner class
+		//the above lambda is the same as this anonymous inner class
 		collection.forEach(
 			new java.util.function.Consumer<String>() {
 				public void accept(String e) {
